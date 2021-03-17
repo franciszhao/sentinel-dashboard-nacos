@@ -44,8 +44,7 @@ Sentinel Dashboard官方版本中支持创建DynamicRuleProvider和DynamicRulePu
     - SystemController
 
 ### 新增参数
-
-Nacos相关
+```
 spring.cloud.sentinel.datasource.nacos.server-addr=http://localhost:8848
 spring.cloud.sentinel.datasource.nacos.groupId=sentinel
 spring.cloud.sentinel.datasource.nacos.namespace=sentinel
@@ -55,7 +54,7 @@ server.port=${server.listen.port:8088}
 
 sentinel.api.io.thread.count=4
 sentinel.metric.fetch.io.thread.count=6
-
+```
 
 
 ### 优化
